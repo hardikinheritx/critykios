@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (3.4.1)
+  - AlamofireImage (2.4.0):
+    - Alamofire (~> 3.3)
+  - EDStarRating (1.1)
+  - RKTagsView (1.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage (~> 2.0)
+  - EDStarRating
+  - RKTagsView
+
+SPEC CHECKSUMS:
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  AlamofireImage: 87408b652e0f5ae5fe364035f15aea8b9b24c77e
+  EDStarRating: a41a6440a945020745d0e9ff8ada7d1afa952114
+  RKTagsView: 14568ac62feefdd7afc4bbb058aeef7dad189456
+
+PODFILE CHECKSUM: 19e1de3bdc288708aa8f1cb206e8b21c05d3cd25
+
+COCOAPODS: 1.0.1

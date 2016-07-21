@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="maa-FQ-mvI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Tabbar Controller-->
+        <scene sceneID="Hma-H3-g4z">
+            <objects>
+                <tabBarController id="maa-FQ-mvI" customClass="TabbarController" customModule="Crityk" customModuleProvider="target" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="nca-78-Nic">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Ixk-sk-6vd" kind="relationship" relationship="viewControllers" id="HkZ-M0-sW9"/>
+                        <segue destination="QFt-7t-7rr" kind="relationship" relationship="viewControllers" id="ejH-na-YCg"/>
+                        <segue destination="cKJ-OY-A0N" kind="relationship" relationship="viewControllers" id="Hrk-gd-aHg"/>
+                        <segue destination="dcT-fH-fL5" kind="relationship" relationship="viewControllers" id="yFp-d6-Ifp"/>
+                        <segue destination="hl4-iD-Lvz" kind="relationship" relationship="viewControllers" id="utP-uU-2dL"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GdT-tT-kr0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="338" y="33"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oub-iy-Ud9">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="hl4-iD-Lvz" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <tabBarItem key="tabBarItem" tag="1005" title="" image="img_profile_normal" selectedImage="img_profile_selected" id="l0G-oF-jbn">
+                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="-8"/>
+                    </tabBarItem>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RWk-se-H80">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jmz-eX-JYi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="994" y="799"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2zo-kH-TWn">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="Ixk-sk-6vd" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <tabBarItem key="tabBarItem" tag="1001" title="" image="img_home_normal" selectedImage="img_home_selected" id="Dsb-Rh-4S8">
+                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="-8"/>
+                    </tabBarItem>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Mae-q5-bbW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fhr-VU-cQh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-390" y="799"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NPG-sO-bTW">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="QFt-7t-7rr" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <tabBarItem key="tabBarItem" tag="1002" title="" image="img_discovery_normal" selectedImage="img_discovery_selected" id="DsP-he-Mnc">
+                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="-8"/>
+                    </tabBarItem>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oK8-63-yYX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ECO-Xl-nNI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-47" y="799"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ieD-Ua-KR6">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="cKJ-OY-A0N" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" tag="1003" title="" selectedImage="img_create_crityk" id="V3S-qe-aYi">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="nU0-VV-dl7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d5H-iq-5qb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303" y="799"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="t29-Jp-AIz">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="dcT-fH-fL5" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <tabBarItem key="tabBarItem" tag="1004" title="" image="img_location_normal" selectedImage="img_location_selected" id="qkr-Wb-bYK">
+                        <inset key="imageInsets" minX="0.0" minY="8" maxX="0.0" maxY="-8"/>
+                    </tabBarItem>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ao3-j4-afG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AMu-br-8iB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="642" y="799"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_create_crityk" width="51" height="46"/>
+        <image name="img_discovery_normal" width="25" height="25"/>
+        <image name="img_discovery_selected" width="25" height="25"/>
+        <image name="img_home_normal" width="25" height="25"/>
+        <image name="img_home_selected" width="25" height="25"/>
+        <image name="img_location_normal" width="25" height="25"/>
+        <image name="img_location_selected" width="25" height="25"/>
+        <image name="img_profile_normal" width="25" height="25"/>
+        <image name="img_profile_selected" width="25" height="25"/>
+    </resources>
+</document>

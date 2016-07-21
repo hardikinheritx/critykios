@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Eu5-OG-RK9">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Profile View Controller-->
+        <scene sceneID="fwJ-4T-zN9">
+            <objects>
+                <viewController id="Eu5-OG-RK9" customClass="ProfileViewController" customModule="Crityk" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qZA-Zs-JNT"/>
+                        <viewControllerLayoutGuide type="bottom" id="lqm-FL-mS5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eQa-uv-Htn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Under development" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sr8-aT-8a7">
+                                <rect key="frame" x="46" y="274" width="227" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="urT-NL-Nxs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AwS-E2-q92">
+                                <rect key="frame" x="126" y="321" width="68" height="30"/>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.36078431370000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="ZxR-hp-hUs"/>
+                                </constraints>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnLogoutTapped:" destination="Eu5-OG-RK9" eventType="touchUpInside" id="m1C-W5-d04"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="sr8-aT-8a7" firstAttribute="centerY" secondItem="eQa-uv-Htn" secondAttribute="centerY" id="O06-QR-qs9"/>
+                            <constraint firstItem="sr8-aT-8a7" firstAttribute="leading" secondItem="eQa-uv-Htn" secondAttribute="leading" constant="46" id="dyu-KY-bQN"/>
+                            <constraint firstAttribute="trailing" secondItem="sr8-aT-8a7" secondAttribute="trailing" constant="47" id="jAH-kC-ERm"/>
+                            <constraint firstAttribute="trailing" secondItem="AwS-E2-q92" secondAttribute="trailing" constant="126" id="plO-r6-qmZ"/>
+                            <constraint firstItem="AwS-E2-q92" firstAttribute="leading" secondItem="eQa-uv-Htn" secondAttribute="leading" constant="126" id="rMl-P1-TLl"/>
+                            <constraint firstItem="AwS-E2-q92" firstAttribute="top" secondItem="sr8-aT-8a7" secondAttribute="bottom" constant="26" id="zjt-RQ-ENg"/>
+                        </constraints>
+                    </view>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jbm-Ap-s6C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="221" y="344"/>
+        </scene>
+    </scenes>
+</document>
