@@ -2,7 +2,7 @@
 //  Constants.swift
 //  Crityk
 //
-//  Created by Prashant Sanghavi on 13/07/16.
+//  Created by Inheritx on 13/07/16.
 //  Copyright © 2016 Prashant Sanghavi. All rights reserved.
 //
 
